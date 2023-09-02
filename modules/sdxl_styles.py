@@ -1,18 +1,19 @@
 # https://github.com/twri/sdxl_prompt_styler/blob/main/sdxl_styles.json
+# Ai-Art xiaoxin汉化
 
 styles = [
     {
-        "name": "None",
+        "name": "无风格",
         "prompt": "{prompt}",
         "negative_prompt": ""
     },
     {
-        "name": "cinematic-default",
+        "name": "电影质感-默认",
         "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
         "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
     },
     {
-        "name": "sai-3d-model",
+        "name": "sai-3D模型",
         "prompt": "professional 3d model {prompt} . octane render, highly detailed, volumetric, dramatic lighting",
         "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting"
     },
